@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patagonia Personas - Asesores Expertos en Argentina</title>
+    <style>
+        :root {
+            --azul-patagonia: #004a87;
+            --celeste-ar: #74acdf;
+            --gris-oscuro: #333;
+            --blanco: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: var(--gris-oscuro);
+        }
+
+        header {
+            background-color: var(--azul-patagonia);
+            color: white;
+            padding: 1rem 5%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1517230807984-16285119184e?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            color: white;
+            padding: 100px 5%;
+            text-align: center;
+        }
+
+        .container { padding: 60px 10%; }
+
+        h2 { color: var(--azul-patagonia); border-bottom: 2px solid var(--celeste-ar); padding-bottom: 10px; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 30px; }
+
+        .card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .verificacion {
+            background-color: #e8f4fd;
+            border-left: 5px solid var(--azul-patagonia);
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 40px 5%;
+            margin-top: 50px;
+        }
+
+        .cta-button {
+            background-color: var(--celeste-ar);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .contact-info { font-weight: bold; color: var(--celeste-ar); }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo"><strong>PATAGONIA SERVER</strong></div>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Quiénes Somos</a>
+        <a href="#historia">Nuestra Historia</a>
+        <a href="#personas">Personas</a>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <h1>Asesoría Integral en la Patagonia Argentina</h1>
+    <p>Conectamos personas con oportunidades reales a través de un equipo de expertos comprometidos.</p>
+    <a href="tel:6432598625" class="cta-button">Contactar Asesor</a>
+</section>
+
+<div class="container">
+    <section id="nosotros">
+        <h2>Quiénes Somos</h2>
+        <p>Somos un grupo de asesores especializados en la gestión y soporte de capital humano y soluciones estratégicas en Argentina. En <strong>Patagonia Server</strong>, nos enfocamos en brindar claridad y confianza en cada paso de su proyecto.</p>
+    </section>
+
+    <section id="personas" class="grid">
+        <div class="card">
+            <h3>Asesoría Personalizada</h3>
+            <p>Entendemos que cada individuo tiene necesidades únicas. Humanizamos los procesos técnicos.</p>
+        </div>
+        <div class="card">
+            <h3>Gestión Local</h3>
+            <p>Operamos con conocimiento profundo del mercado argentino y regional de la Patagonia.</p>
+        </div>
+        <div class="card">
+            <h3>Soporte Continuo</h3>
+            <p>No solo asesoramos, acompañamos a las personas en su crecimiento y estabilidad.</p>
+        </div>
+    </section>
+
+    <section id="historia" style="margin-top: 60px;">
+        <h2>Nuestra Historia</h2>
+        <p>Nacimos de la necesidad de cerrar la brecha entre la complejidad administrativa y las personas que impulsan la economía en el sur de Argentina. Con años de trayectoria, hemos transformado la manera en que los profesionales y empresas interactúan con el entorno patagónico, priorizando siempre la ética y la transparencia.</p>
+    </section>
+
+    <section class="verificacion">
+        <h3>Transparencia y Verificación</h3>
+        <p>Este sitio y sus campañas están bajo la supervisión directa de:</p>
+        <p><strong>Administrador Responsable:</strong> JOHN ALEJANDRO RUIZ HENAO</p>
+        <p><strong>Entidad:</strong> PATAGONIA SERVER</p>
+        <p><strong>Teléfono de Soporte:</strong> <span class="contact-info">643-259-8625</span></p>
+        <small>Campaña verificada para Google Ads 2026.</small>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Patagonia Server - Argentina. Todos los derechos reservados.</p>
+    <p>Seguridad | Privacidad | Verificación: John Alejandro Ruiz Henao</p>
+</footer>
+
+</body>
+</html>
